@@ -1,1 +1,1 @@
-Here you can find some useful Bootstrap-Sass snippets for Atom. 
+https://atom.io/packages/bootstrap-sass-snippets
