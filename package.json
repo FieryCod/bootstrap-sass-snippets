@@ -1,22 +1,22 @@
 {
-    "name": "bootstrap-sass-snippets",
-    "main": "./lib/bootstrap-sass-snippets",
-    "version": "0.0.0",
-    "description": "Bootstrap-Sass snippets to speed up your productivity",
-    "keywords": [
-        "snippets",
-        "scss",
-        "sass",
-        "bootstrap"
-    ],
-    "author": {
-        "name": "Karol Wójcik",
-        "email": "kwcharllie379@gmail.com"
-    },
-    "repository": "https://github.com/FieryCod/Bootstrap-Sass-Snippets",
-    "engines": {
-        "atom": ">=0.174.0 <2.0.0"
-    },
-    "dependencies": {}
+  "name": "bootstrap-sass-snippets",
+  "main": "./lib/bootstrap-sass-snippets",
+  "version": "0.1.0",
+  "description": "Bootstrap-Sass snippets to speed up your productivity",
+  "keywords": [
+    "snippets",
+    "scss",
+    "sass",
+    "bootstrap"
+  ],
+  "author": {
+    "name": "Karol Wójcik",
+    "email": "kwcharllie379@gmail.com"
+  },
+  "repository": "https://github.com/FieryCod/Bootstrap-Sass-Snippets",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
 }
 
