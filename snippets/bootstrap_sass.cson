@@ -237,10 +237,10 @@
         #font-family
             'sans-serif':
                 'prefix': 'font-family-sans-serif'
-                'body': '$font-family-sans-serif:'($1)';'
+                'body': '$font-family-sans-serif:"($1)";'
             'serif':
                 'prefix': 'font-family-serif'
-                'body': '$font-family-serif:'($1)';'
+                'body': '$font-family-serif:"($1)";'
 
         #navbar
             'Navbar height':
