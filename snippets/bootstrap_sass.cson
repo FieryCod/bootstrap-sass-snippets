@@ -137,15 +137,6 @@
             'Btn font weight':
                 'prefix': 'btn-font-weight'
                 'body': '$btn-font-weight:($1);'
-            'Btn default bg':
-                'prefix': 'btn-default-bg'
-                'body': '$btn-default-bg:($1);'           
-            'Btn default border':
-                'prefix': 'btn-default-border'
-                'body': '$btn-default-border:($1);'           
-            'Btn default color':
-                'prefix': 'btn-default-color'
-                'body': '$btn-default-color:($1);'
            
              # Primary
             'Btn primary color':
@@ -197,6 +188,16 @@
            'Btn danger border':
                'prefix': 'btn-danger-border'
                'body': '$btn-danger-border:($1);'
+           
+           'Btn default bg':
+                'prefix': 'btn-default-bg'
+                'body': '$btn-default-bg:($1);'           
+            'Btn default border':
+                'prefix': 'btn-default-border'
+                'body': '$btn-default-border:($1);'           
+            'Btn default color':
+                'prefix': 'btn-default-color'
+                'body': '$btn-default-color:($1);'
                
         # Inputs
         'Input background':
