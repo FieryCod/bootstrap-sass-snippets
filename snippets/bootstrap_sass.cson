@@ -137,15 +137,16 @@
             'Btn font weight':
                 'prefix': 'btn-font-weight'
                 'body': '$btn-font-weight:($1);'
+            'Btn default bg':
+                'prefix': 'btn-default-bg'
+                'body': '$btn-default-bg:($1);'           
+            'Btn default border':
+                'prefix': 'btn-default-border'
+                'body': '$btn-default-border:($1);'           
             'Btn default color':
                 'prefix': 'btn-default-color'
                 'body': '$btn-default-color:($1);'
-            'Btn default bg':
-                'prefix': 'btn-default-bg'
-                'body': '$btn-default-bg:($1);'
-            'Btn default border':
-                'prefix': 'btn-default-border'
-                'body': '$btn-default-border:($1);'
+           
              # Primary
             'Btn primary color':
                 'prefix': 'btn-primary-color'
@@ -240,7 +241,7 @@
                 'body': '$font-family-sans-serif:"($1)";'
             'serif':
                 'prefix': 'font-family-serif'
-                'body': '$font-family-serif:"($1)";'
+                'body': '$font-family-seri($1)";'
 
         #navbar
             'Navbar height':
