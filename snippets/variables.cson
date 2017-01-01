@@ -1,0 +1,420 @@
+# Sass-Bootstrap Snippets
+    '.source.scss':
+    # Variables
+
+    # Colors
+        # Gray-base and brand colors
+        'Gray base color':
+            'prefix': 'gray-base'
+            'body': '$gray-base: $1;'
+        'Brand-primary':
+            'prefix': 'brand-primary'
+            'body': '$brand-primary: $1;'
+        'Brand-success color':
+            'prefix': 'brand-success'
+            'body': '$brand-success: $1;'
+        'Brand-info color':
+            'prefix': 'brand-info'
+            'body': '$brand-info: $1;'
+        'Brand-warning color':
+            'prefix': 'brand-warning'
+            'body': '$brand-warning: $1;'
+        'brand-danger color':
+            'prefix': 'brand-danger'
+            'body': '$brand-danger: $1;'
+
+    # Scaffolding
+        # Global body variables
+        'Bg color for <body>':
+            'prefix': 'body-bg'
+            'body': '$body-bg: $1;'
+        'Text color for <body>':
+            'prefix': 'text-color'
+            'body': '$text-color: $1;'
+        'Link color for <body>':
+            'prefix': 'link-color'
+            'body': '$link-color: $1;'
+        'Link hover color for <body>':
+            'prefix': 'link-color'
+            'body': '$link-color: $1;'
+        'Link hover decoration':
+            'prefix': 'link-hover-decoration'
+            'body': '$link-hover-decoration: $1;'
+
+    # Typography
+        # font-family
+        'font-family base':
+            'prefix': 'font-family-base'
+            'body': '$font-family-base: "$1";'
+        'sans-serif':
+            'prefix': 'font-family-sans-serif'
+            'body': '$font-family-sans-serif: "$1";'
+        'serif':
+            'prefix': 'font-family-serif'
+            'body': '$font-family-serif: "$1";'
+        'monospace':
+            'prefix': 'font-family-monospace'
+            'body': '$font-family-monospace: "$1";'
+        # font-size
+        'Font-size base':
+            'prefix': 'font-size-base'
+            'body': '$font-size-base: $1;'
+        'Font-size large':
+            'prefix': 'font-size-large'
+            'body': '$font-size-large: $1;'
+        'Font-size small':
+            'prefix': 'font-size-small'
+            'body': '$font-size-small: $1;'
+        # line-height
+        'Line height base':
+            'prefix': 'line-height-base'
+            'body': '$line-height-base: $1;'
+        'Font-size small':
+            'prefix': 'font-size-small'
+            'body': '$font-size-small: $1;'
+        'Font-size small':
+            'prefix': 'font-size-small'
+            'body': '$font-size-small: $1;'
+
+        # h1 - h6
+        'h1 font-size':
+            'prefix': 'font-size-h1'
+            'body': '$font-size-h1: $1;'
+        'h2 font-size':
+            'prefix': 'font-size-h2'
+            'body': '$font-size-h2: $1;'
+        'h3 font-size':
+            'prefix': 'font-size-h3'
+            'body': '$font-size-h3: $1;'
+        'h4 font-size':
+            'prefix': 'font-size-h4'
+            'body': '$font-size-h4: $1;'
+        'h5 font-size':
+            'prefix': 'font-size-h5'
+            'body': '$font-size-h5: $1;'
+        'h6 font-size':
+            'prefix': 'font-size-h6'
+            'body': '$font-size-h6: $1;'
+
+
+    # Components
+
+        # Paddings
+        'Vertical base padding ':
+            'prefix': 'padding-base-vertical'
+            'body': '$padding-base-vertical: $1;'
+        'Horizontal padding base':
+            'prefix': 'padding-base-horizontal'
+            'body': '$padding-base-horizontal: $1;'
+            # large paddings
+        'Vertical large padding ':
+            'prefix': 'padding-large-vertical'
+            'body': '$padding-large-vertical: $1;'
+        'Horizontal padding large':
+            'prefix': 'padding-large-horizontal'
+            'body': '$padding-large-horizontal: $1;'
+            # small paddings
+        'Vertical small padding':
+            'prefix': 'padding-small-vertical'
+            'body': '$padding-small-vertical: $1;'
+        'Horizontal small padding':
+            'prefix': 'padding-small-horizontal'
+            'body': '$padding-small-horizontal: $1;'
+            # xs paddings
+        'Vertical xsmall padding':
+            'prefix': 'padding-xs-vertical'
+            'body': '$padding-xs-vertical: $1;'
+        'Horizontal xsmall padding':
+            'prefix': 'padding-xs-horizontal'
+            'body': '$padding-xs-horizontal: $1;'
+
+        # Border radius
+        'Base radius border':
+            'prefix': 'border-radius-base'
+            'body': '$border-radius-base: $1;'
+        'Large radius border':
+            'prefix': 'border-radius-large'
+            'body': '$border-radius-large: $1;'
+        'Small radius border':
+            'prefix': 'border-radius-small'
+            'body': '$border-radius-small: $1;'
+
+        # Global color/bg-color for active items
+        'Global color for active items':
+            'prefix': 'component-active-color'
+            'body': '$component-active-color: $1;'
+        'Global background color for active items':
+            'prefix': 'component-active-bg'
+            'body': '$component-active-bg: $1;'
+        # Carets
+        'Base caret width':
+            'prefix': 'caret-width-base'
+            'body': '$caret-width-base: $1;'
+        'Caret width for large components':
+            'prefix': 'caret-width-large'
+            'body': '$caret-width-large: $1;'
+
+    # Tables
+
+        # Paddings
+        'Padding for <th>,<td>':
+            'prefix': 'table-cell-padding'
+            'body': '$table-cell-padding: $1;'
+        'Padding for cells in .table-condensed':
+            'prefix': 'table-condensed-cell-padding'
+            'body': '$table-condensed-cell-padding: $1;'
+        # Colors
+        'Default bg for all tables':
+            'prefix': 'table-bg'
+            'body': '$table-bg: $1;'
+        'Bg for .table-striped':
+            'prefix': 'table-bg-accent'
+            'body': '$table-bg-accent: $1;'
+        'Table bg for .table-hover':
+            'prefix': 'table-bg-hover'
+            'body': '$table-bg-hover: $1;'
+        'Table border color':
+            'prefix': 'table-border-color'
+            'body': '$table-border-color: $1;'
+
+    # Buttons
+        'Btn font weight':
+            'prefix': 'btn-font-weight'
+            'body': '$btn-font-weight: $1;'
+        # Default
+        'Btn default bg':
+            'prefix': 'btn-default-bg'
+            'body': '$btn-default-bg: $1;'
+        'Btn default border':
+            'prefix': 'btn-default-border'
+            'body': '$btn-default-border: $1;'
+        'Btn default color':
+            'prefix': 'btn-default-color'
+            'body': '$btn-default-color: $1;'
+        # Primary
+        'Btn primary color':
+            'prefix': 'btn-primary-color'
+            'body': '$btn-primary-color: $1;'
+        'Btn primary bg':
+            'prefix': 'btn-primary-bg'
+            'body': '$btn-primary-bg: $1;'
+        'Btn primary border':
+            'prefix': 'btn-primary-border'
+            'body': '$btn-primary-border: $1;'
+        # Success
+        'Btn success color':
+            'prefix': 'btn-success-color'
+            'body': '$btn-success-color: $1;'
+        'Btn success bg':
+            'prefix': 'btn-success-bg'
+            'body': '$btn-success-bg: $1;'
+        'Btn success border':
+            'prefix': 'btn-success-border'
+            'body': '$btn-success-border: $1;'
+        # Info
+        'Btn info color':
+            'prefix': 'btn-info-color'
+            'body': '$btn-info-color: $1;'
+        'Btn info bg':
+            'prefix': 'btn-info-bg'
+            'body': '$btn-info-bg: $1;'
+        'Btn info border':
+            'prefix': 'btn-info-border'
+            'body': '$btn-info-border: $1;'
+        # Warning
+        'Btn warning color':
+            'prefix': 'btn-warning-color'
+            'body': '$btn-warning-color: $1;'
+        'Btn warning bg':
+            'prefix': 'btn-warning-bg'
+            'body': '$btn-warning-bg: $1;'
+        'Btn warning border':
+            'prefix': 'btn-warning-border'
+            'body': '$btn-warning-border: $1;'
+        # Danger
+        'Btn danger color':
+            'prefix': 'btn-danger-color'
+            'body': '$btn-danger-color: $1;'
+        'Btn danger bg':
+            'prefix': 'btn-danger-bg'
+            'body': '$btn-danger-bg: $1;'
+        'Btn danger border':
+            'prefix': 'btn-danger-border'
+            'body': '$btn-danger-border: $1;'
+
+
+  # Forms
+
+        #Inputs
+        'Input background':
+            'prefix': 'input-bg'
+            'body': '$input-bg: $1;'
+        'Input background disabled':
+            'prefix': 'input-bg-disabled'
+            'body': '$input-bg-disabled: $1;'
+        'Input text color':
+            'prefix': 'input-color'
+            'body': '$input-color: $1;'
+        'Input border color':
+            'prefix': 'input-border'
+            'body': '$input-border: $1;'
+        'Input border focus':
+            'prefix': 'input-border-focus'
+            'body': '$input-border-focus: $1;'
+
+  # Dropdown
+        'Background for the dropdown menu':
+            'prefix': 'dropdown-bg'
+            'body': '$dropdown-bg: $1;'
+        'Border for the dropdown menu':
+            'prefix': 'dropdown-border'
+            'body': '$dropdown-border: $1;'
+        'Divider color for between dropdown items':
+            'prefix': 'dropdown-divider-bg'
+            'body': '$dropdown-divider-bg: $1;'
+        'Dropdown link text color':
+            'prefix': 'dropdown-link-color'
+            'body': '$dropdown-link-color: $1;'
+          # Hover
+        'Hover color for dropdown links':
+            'prefix': 'dropdown-link-hover-color'
+            'body': '$dropdown-link-hover-color: $1;'
+        'Hover background for dropdown links.':
+            'prefix': 'dropdown-link-hover-bg'
+            'body': '$dropdown-link-hover-bg: $1;'
+          # Active
+        'Active dropdown menu item text color':
+            'prefix': 'dropdown-link-active-color'
+            'body': '$dropdown-link-active-color: $1;'
+        'Active dropdown menu item background color':
+            'prefix': 'dropdown-link-active-bg'
+            'body': '$dropdown-link-active-bg: $1;'
+          # Disabled
+        'Disabled dropdown menu item bg':
+            'prefix': 'dropdown-link-disabled-color'
+            'body': '$dropdown-link-active-color: $1;'
+        'Text color for headers within dropdown menus':
+            'prefix': 'dropdown-header-color'
+            'body': '$dropdown-header-color: $1;'
+
+
+
+    # Navbar
+            # Different navbar variables
+        'Collapse navbar at:':
+            'prefix': 'grid-float-breakpoint'
+            'body': '$grid-float-breakpoint: $1;'
+        'Navbar height':
+            'prefix': 'navbar-height'
+            'body': '$navbar-height: $1;'
+        'Navbar margin-bottom':
+            'prefix': 'navbar-height'
+            'body': '$navbar-height: $1;'
+        'Navbar border radius':
+            'prefix': 'navbar-height'
+            'body': '$navbar-height: $1;'
+        'Horizontal navbar padding':
+            'prefix': 'navbar-padding-horizontal'
+            'body': '$navbar-padding-horizontal: $1;'
+        'Vertical navbar padding':
+            'prefix': 'navbar-padding-vertical'
+            'body': '$navbar-padding-vertical: $1;'
+        'Max collapse navbar height':
+            'prefix': 'navbar-collapse-max-height'
+            'body': '$navbar-collapse-max-height: $1;'
+
+            # Default navbar
+        'Bg color for navbar-default':
+            'prefix': 'navbar-default-bg'
+            'body': '$navbar-default-bg: $1;'
+        'Color for navbar-default':
+            'prefix': 'navbar-default-color'
+            'body': '$navbar-default-color: $1;'
+        'Border for navbar-default':
+            'prefix': 'navbar-default-border'
+            'body': '$navbar-default-border: $1;'
+
+            # Navbar links
+        'Navbar link color':
+            'prefix': 'navbar-default-link-color'
+            'body': '$navbar-default-link-color: $1;'
+                # Hover
+        'Navbar link:hover color':
+            'prefix': 'navbar-default-link-hover-color'
+            'body': '$navbar-default-link-hover-color: $1;'
+        'Navbar link:hover bg color':
+            'prefix': 'navbar-default-link-hover-bg'
+            'body': '$navbar-default-link-hover-bg: $1;'
+                # Active
+        'Navbar link:active color':
+            'prefix': 'navbar-default-link-active-color'
+            'body': '$navbar-default-link-active-color: $1;'
+        'Navbar link:active bg color':
+            'prefix': 'navbar-default-link-active-bg'
+            'body': '$navbar-default-link-active-bg: $1;'
+                # Disabled
+        'Navbar link:disabled color':
+            'prefix': 'navbar-default-link-disabled-color'
+            'body': '$nnavbar-default-link-disabled-color: $1;'
+        'Navbar link:disabled bg color':
+            'prefix': 'navbar-default-link-disabled-bg'
+            'body': '$navbar-default-link-disabled-bg: $1;'
+
+            # Navbar toggle
+        'Bg color for navbar-toogle':
+            'prefix': 'navbar-default-toggle-hover-bg'
+            'body': '$navbar-default-toggle-hover-bg: $1;'
+        'Bg color for icon-bar':
+            'prefix': 'navbar-default-toggle-icon-bar-bg'
+            'body': '$navbar-default-toggle-icon-bar-bg: $1;'
+        'Border color for navbar-default':
+            'prefix': 'navbar-default-toggle-border-color'
+            'body': '$navbar-default-toggle-border-color: $1;'
+
+    # Navs
+        'Padding for li in nav':
+            'prefix': 'nav-link-padding'
+            'body': '$nav-link-padding: $1;'
+        'Nav-tabs border color':
+            'prefix': 'nav-tabs-border-color'
+            'body': '$nav-tabs-border-color: $1;'
+
+    # Form states and alerts
+    # Define colors for form feedback states and, by default, alerts.
+          # Success
+        'Text color for success state':
+            'prefix': 'state-success-text'
+            'body': '$state-success-text: $1;'
+        'Bg color for success state':
+            'prefix': 'state-success-bg'
+            'body': '$state-success-bg: $1;'
+          # Info
+        'Text color for info state':
+            'prefix': 'state-info-text'
+            'body': '$state-info-text: $1;'
+        'Bg color for info state':
+            'prefix': 'state-info-bg'
+            'body': '$state-info-bg: $1;'
+          # Warning
+        'Text color for warning state':
+            'prefix': 'state-warning-text'
+            'body': '$state-warning-text: $1;'
+        'Bg color for warning state':
+            'prefix': 'state-warning-bg'
+            'body': '$state-warning-bg: $1;'
+          # Danger
+        'Text color for danger state':
+            'prefix': 'state-danger-text'
+            'body': '$state-danger-text: $1;'
+        'Bg color for danger state':
+            'prefix': 'state-danger-bg'
+            'body': '$state-danger-bg: $1;'
+
+  # Progress bars
+          # Background color of the whole progress component
+        'Background color of the whole progress component':
+            'prefix': 'progress-bg'
+            'body': '$progress-bg: $1;'
+        'Progress bar text color':
+            'prefix': 'progress-bar-color'
+            'body': '$progress-bar-color: $1;'

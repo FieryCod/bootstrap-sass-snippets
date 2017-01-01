@@ -1,0 +1,96 @@
+# Sass-Bootstrap Snippets
+    '.source.scss':
+        # Grid mixins and classes
+        #-----------------------------------------------------------------------
+        'Extends container-fluid.':
+            'prefix': 'container-fluid'
+            'body': '@extend .container-fluid;'
+
+        'Extends container.':
+            'prefix': 'container'
+            'body': '@extend .container;'
+
+        'Make container-fixed.':
+            'prefix': 'container-fixed'
+            'body': '@include container-fixed();'
+
+        'Make row.':
+            'prefix': 'make-row'
+            'body': '@include make-row();'
+
+        # xs-column
+        'Makes xs-column with specified number of columns.':
+            'prefix': 'make-xs-column'
+            'body': '@include make-xs-column($1);'
+
+        'Offsets xs-column. ':
+            'prefix': 'make-xs-column-offset'
+            'body': '@include make-xs-column-offset($1);'
+
+        'Pushes xs-column.':
+            'prefix': 'make-xs-column-push'
+            'body': '@include make-xs-column-push($1);'
+
+        'Pulls xs-column.':
+            'prefix': 'make-xs-column-pull'
+            'body': '@include make-xs-column-pull($1);'
+
+        # sm-column
+        'Makes sm-column with specified number of columns.':
+            'prefix': 'make-sm-column'
+            'body': '@include make-sm-column($1);'
+
+        'Offsets sm-column. ':
+            'prefix': 'make-sm-column-offset'
+            'body': '@include make-sm-column-offset($1);'
+
+        'Pushes sm-column.':
+            'prefix': 'make-sm-column-push'
+            'body': '@include make-sm-column-push($1);'
+
+        'Pulls sm-column.':
+            'prefix': 'make-sm-column-pull'
+            'body': '@include make-sm-column-pull($1);'
+
+        # md-column
+        'Makes md-column with specified number of columns.':
+            'prefix': 'make-md-column'
+            'body': '@include make-md-column($1);'
+
+        'Offsets md-column. ':
+
+            'prefix': 'make-md-column-offset'
+            'body': '@include make-md-column-offset($1);'
+
+        'Pushes md-column.':
+            'prefix': 'make-md-column-push'
+            'body': '@include make-md-column-push($1);'
+
+        'Pulls md-column.':
+            'prefix': 'make-md-column-pull'
+            'body': '@include make-md-column-pull($1);'
+
+        # lg-column
+        'Makes lg-column with specified number of columns.':
+            'prefix': 'make-lg-column'
+            'body': '@include make-lg-column($1);'
+
+        'Offsets lg-column. ':
+            'prefix': 'make-lg-column-offset'
+            'body': '@include make-lg-column-offset($1);'
+
+        'Pushes lg-column.':
+            'prefix': 'make-lg-column-push'
+            'body': '@include make-lg-column-push($1);'
+
+        'Pulls lg-column.':
+            'prefix': 'make-lg-column-pull'
+            'body': '@include make-lg-column-pull($1);'
+        # ----------------------------------------------------------------------
+
+        # utils
+        'Adds clearfix.':
+            'prefix': 'clearfix'
+            'body': '@include clearfix();'
+
+        # ----------------------------------------------------------------------
