@@ -95,6 +95,18 @@
         'h6 font-size':
             'prefix': 'font-size-h6'
             'body': '$font-size-h6: $1;'
+        'Color for headings':
+            'prefix': 'headings-color'
+            'body': '$headings-color: $1;'
+        'Font-family for headings':
+            'prefix': 'headings-font-family'
+            'body': '$headings-font-family: $1;'
+        'Line-height for headings':
+            'prefix': 'headings-line-height'
+            'body': '$headings-line-height: $1;'
+        'Font-weight for headings':
+            'prefix': 'headings-font-weight'
+            'body': '$headings-font-weight: $1;'                          
 
 
     # Components
