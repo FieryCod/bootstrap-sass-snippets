@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-sass-snippets",
   "main": "./lib/bootstrap-sass-snippets",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Bootstrap-Sass snippets to speed up your productivity",
   "keywords": [
     "snippets",
