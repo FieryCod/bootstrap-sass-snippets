@@ -49,7 +49,3 @@ Pull:
 *If you find any issues please let me know on a* [github](https://github.com/FieryCod/bootstrap-sass-snippets) or via email: kwcharllie379@gmail.com
 
 
-
-
-*I would highly appreciate your suggestions for further work.*
------------------------------------------------------------------
