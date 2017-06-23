@@ -1,6 +1,8 @@
 Bootstrap-sass snippets for Atom
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/FieryCod/bootstrap-sass-snippets.svg)](https://greenkeeper.io/)
+
 
 
 ----------
